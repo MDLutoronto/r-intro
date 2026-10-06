@@ -1,5 +1,5 @@
 ---
-title: RStudio
+title: R and RStudio
 layout: home
 staff:
     - name: Nadia Muhe
@@ -25,7 +25,7 @@ You can install R from the [R homepage](https://www.r-project.org/). Click downl
 
 RStudio is an Integrated Development Environment that provides free and open-source tools for R. You can run your data analysis in the basic R environment. However, RStudio does have a more intuitive interface and more tools to help you write your R code. 
 
-You can install RStudio from the [RStudio homepage](https://rstudio.com/). 
+You can install RStudio from the [Posit website](https://docs.posit.co/ide/user/). 
 
 You will not need to open R directly. RStudio runs it for you.
 

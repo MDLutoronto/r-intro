@@ -25,7 +25,7 @@ cchs$food_insecure <- ifelse(cchs$food_security == "Secure", 0, 1)
 # Check
 table(cchs$food_security, cchs$food_insecure, useNA = "ifany")
 ```
-<img src='/assets/images/5_1.png' alt='Two-way frequency table of food security variable by food insecure indicator variable.' title='' width='810' height='88' />
+<img src="{{ '/assets/images/5_1.png' | relative_url }}  alt='Two-way frequency table of food security variable by food insecure indicator variable.' title='' width='810' height='88' />
 
 
 ### Example 2: Categorical Variable
@@ -36,7 +36,7 @@ table(cchs$food_security, cchs$food_insecure, useNA = "ifany")
 table(cchs$smoking, useNA = "ifany")
 table(cchs$drinking, useNA = "ifany")
 ```
-<img src='/assets/images/5_2.png' alt='Two frequency tables of smoking and drinking.' title='' width='810' height='88' />
+<img src="{{ '/assets/images/5_2.png' | relative_url }}  alt='Two frequency tables of smoking and drinking.' title='' width='810' height='88' />
 
 
 ```
@@ -49,7 +49,7 @@ cchs$risk[cchs$smoking != "Current" & cchs$drinking != "Regular"] <- "Neither"
 table(cchs$smoking, cchs$drinking, useNA = "ifany")
 table(cchs$risk, useNA = "ifany")
 ```
-<img src='/assets/images/5_3.png' alt='One two-way frequency table of smoking by drinking. One frequency table of the risk categorical variable.' title='' width='810' height='88' />
+<img src="{{ '/assets/images/5_3.png' | relative_url }}  alt='One two-way frequency table of smoking by drinking. One frequency table of the risk categorical variable.' title='' width='810' height='88' />
 
 
 ```
@@ -59,7 +59,7 @@ cchs$risk <- factor(cchs$risk, levels = c("Both", "Smoker", "Drinker", "Neither"
 str(cchs$risk)
 table(cchs$risk, useNA = "ifany")
 ```
-<img src='/assets/images/5_4.png' alt='Converting the risk character variable into a factor variable.' title='' width='810' height='88' />
+<img src="{{ '/assets/images/5_4.png' | relative_url }}  alt='Converting the risk character variable into a factor variable.' title='' width='810' height='88' />
 
 
 
@@ -75,8 +75,9 @@ cchs$chronic_count <- rowSums(cbind(cchs$diabetes, cchs$hbp, cchs$cholesterol, c
 table(cchs$chronic_count, useNA = "ifany")
 ```
 
-<img src='/assets/images/5_5.png' alt='Frequency variable of the total chronic conditions count variable.' title='' width='752' height='319' />
+<img src="{{ '/assets/images/5_5.png' | relative_url }}  alt='Frequency variable of the total chronic conditions count variable.' title='' width='752' height='319' />
 
+ 
  
 
 **Technique:** [Converting data formats](https://mdlutoronto.github.io/tutorials-search/?technique=Converting+data+formats), [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data)\

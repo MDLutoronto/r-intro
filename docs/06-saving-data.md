@@ -1,5 +1,5 @@
 ---
-title: New Variables
+title: Saving Data
 layout: home
 staff:
     - name: Nadia Muhe

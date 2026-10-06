@@ -1,7 +1,7 @@
 ## Site settings
 title: "Introduction to R"
 description: "An introductory R tutorial covering how to import, explore, visualize, and manage data."
-url: "https://MDLutoronto.github.io/r-intro" # change the slug to the repo's name ('jtd-template' in this case)
+url: "https://MDLutoronto.github.io" # change the slug to the repo's name ('jtd-template' in this case)
 repository: "MDLutoronto/r-intro" # for github-metadata
 ## Navigation footer logos and links
 ## Change it only if you want to use different logos or links

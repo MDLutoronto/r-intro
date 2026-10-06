@@ -26,7 +26,7 @@ barplot(stress_table,
         ylab = "Frequency",
         xlab = "Stress Level")
 ```
-<img src='/assets/images/barchart.png' alt='Barchart of stress levels.' title='Stress Levels in the 2022 CCHS' width='633' height='463' />
+<img src="{{ '/assets/images/barchart.png' | relative_url }}  alt='Barchart of stress levels.' title='Stress Levels in the 2022 CCHS' width='633' height='463' />
 
 
 ### Histogram
@@ -41,7 +41,7 @@ hist(cchs$life_sat,
      xlab = "Life Satisfaction Score", 
      col = "lightblue")
 ```
-<img src='/assets/images/histogram.png' alt='Histogram of life satisfaction score.' title='Life Satisfaction' width='650' height='475' />
+<img src="{{ '/assets/images/histogram.png' | relative_url }}  alt='Histogram of life satisfaction score.' title='Life Satisfaction' width='650' height='475' />
 
 
 
@@ -63,7 +63,8 @@ plot(jitter(cchs$sleep_hours), jitter(cchs$life_sat),
 legend("bottomright", legend = levels(cchs$sex), col = 1:2, pch = 3)
 ```
 
-<img src='/assets/images/scatterplot.png' alt='Scatterplot of sleep hours and life satisfaction colour coded by sex.' title='Sleep Hours and Life Satisfaction by Sex' width='643' height='470' />
+<img src="{{ '/assets/images/scatterplot.png' | relative_url }}  alt='Scatterplot of sleep hours and life satisfaction colour coded by sex.' title='Sleep Hours and Life Satisfaction by Sex' width='643' height='470' />
+
 
 
 **Technique:** [Converting data formats](https://mdlutoronto.github.io/tutorials-search/?technique=Converting+data+formats), [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data)\
