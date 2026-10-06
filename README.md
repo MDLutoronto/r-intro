@@ -6,7 +6,7 @@ The dataset used is a modified version of the Canadian Community Health Survey (
 
 
 **RDS DATA**: [cchs.rds](https://raw.githubusercontent.com/MDLutoronto/r-intro/main/docs/assets/data/cchs.rds)\
-**TUTORIAL**: https://mdlutoronto.github.io/r-intro/\
+**TUTORIAL**: https://mdlutoronto.github.io/r-intro/ \
 **WORKSHOP**: [workshop.zip](https://raw.githubusercontent.com/MDLutoronto/r-intro/main/docs/assets/workshop/workshop.zip)
 
 Additional learning materials are listed in the Resources section.

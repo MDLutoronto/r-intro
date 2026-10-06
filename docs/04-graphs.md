@@ -66,6 +66,6 @@ legend("bottomright", legend = levels(cchs$sex), col = 1:2, pch = 3)
 <img src='/assets/images/scatterplot.png' alt='Scatterplot of sleep hours and life satisfaction colour coded by sex.' title='Sleep Hours and Life Satisfaction by Sex' width='643' height='470' />
 
 
-**Technique:** [Converting data formats](https://mdlutoronto.github.io/tutorials-search/?technique=Converting+data+formats), [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data) \
-**Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R) \
+**Technique:** [Converting data formats](https://mdlutoronto.github.io/tutorials-search/?technique=Converting+data+formats), [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data)\
+**Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R)\
 **Data Format:** [Statistics](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Statistics)
